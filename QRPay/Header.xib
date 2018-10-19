@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Header">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="NbY-wX-IyE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="76"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headder_background" translatesAutoresizingMaskIntoConstraints="NO" id="SJU-iA-gdA">
+                    <rect key="frame" x="0.0" y="0.0" width="340" height="76"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headder_logo" translatesAutoresizingMaskIntoConstraints="NO" id="BiI-48-Gx5">
+                    <rect key="frame" x="0.0" y="0.0" width="340" height="76"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ub-XO-nFa">
+                    <rect key="frame" x="272" y="12" width="52" height="53"/>
+                    <state key="normal" image="ic_settings"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SJU-iA-gdA" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="2iS-Th-GZX"/>
+                <constraint firstItem="SJU-iA-gdA" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="3tU-90-lhs"/>
+                <constraint firstItem="BiI-48-Gx5" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="35:19" constant="200" id="6Dk-UH-N13"/>
+                <constraint firstItem="BiI-48-Gx5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="7qM-oK-h3I"/>
+                <constraint firstItem="4Ub-XO-nFa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="272" id="CQm-9q-RAU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4Ub-XO-nFa" secondAttribute="trailing" constant="16" id="EBN-Zk-1wC"/>
+                <constraint firstItem="BiI-48-Gx5" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="F3T-Uc-BTO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="4Ub-XO-nFa" secondAttribute="bottom" constant="11" id="Ngo-sU-ySb"/>
+                <constraint firstItem="4Ub-XO-nFa" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="OIc-Q4-zGJ"/>
+                <constraint firstItem="SJU-iA-gdA" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="QRJ-SR-P1M"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="BiI-48-Gx5" secondAttribute="bottom" id="dNR-uk-Seb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BiI-48-Gx5" secondAttribute="trailing" id="qea-7Q-m9W"/>
+                <constraint firstItem="SJU-iA-gdA" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="wJg-St-g3B"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-386" y="-190"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="headder_background" width="360" height="80"/>
+        <image name="headder_logo" width="360" height="80"/>
+        <image name="ic_settings" width="19" height="19"/>
+    </resources>
+</document>

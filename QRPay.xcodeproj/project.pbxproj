@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070B060C21768E0B001F095D /* CustomBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B060B21768E0B001F095D /* CustomBarButton.m */; };
+		070B061021769041001F095D /* CustomControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B060E21769041001F095D /* CustomControllerViewController.m */; };
+		070B061121769041001F095D /* CustomControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B060F21769041001F095D /* CustomControllerViewController.xib */; };
+		070B061321769696001F095D /* CustomTabBar1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B061221769696001F095D /* CustomTabBar1.xib */; };
+		070B06192177C17C001F095D /* CustomTabBar1.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B06182177C17C001F095D /* CustomTabBar1.m */; };
+		070B061C2177C6DB001F095D /* WalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B061B2177C6DB001F095D /* WalletViewController.m */; };
+		070B061F2177D651001F095D /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B061E2177D651001F095D /* MessagesViewController.m */; };
+		070B062121792492001F095D /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B062021792492001F095D /* Header.xib */; };
+		070B062421792825001F095D /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B062321792825001F095D /* Header.m */; };
+		07776353216FFC1700EC6DB3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07776352216FFC1700EC6DB3 /* HomeViewController.m */; };
+		077763562170035100EC6DB3 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077763552170035100EC6DB3 /* HistoryViewController.m */; };
+		07AD3959216D4D0E0094538C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD3958216D4D0E0094538C /* AppDelegate.m */; };
+		07AD395C216D4D0E0094538C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD395B216D4D0E0094538C /* ViewController.m */; };
+		07AD395F216D4D0E0094538C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AD395D216D4D0E0094538C /* Main.storyboard */; };
+		07AD3961216D4D140094538C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AD3960216D4D140094538C /* Assets.xcassets */; };
+		07AD3964216D4D140094538C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AD3962216D4D140094538C /* LaunchScreen.storyboard */; };
+		07AD3967216D4D140094538C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD3966216D4D140094538C /* main.m */; };
+		07AD396E216D4E110094538C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 07AD396D216D4E110094538C /* Podfile */; };
+		07AD3971216EA5280094538C /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD3970216EA5280094538C /* MainTabController.m */; };
+		AADBE7B3AE8067D0D78CEAB8 /* libPods-QRPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A868D6EA782786C0350D643 /* libPods-QRPay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		027E0F152CD961CB8C3347A9 /* Pods-QRPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRPay/Pods-QRPay.release.xcconfig"; sourceTree = "<group>"; };
+		070B060A21768E0B001F095D /* CustomBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBarButton.h; sourceTree = "<group>"; };
+		070B060B21768E0B001F095D /* CustomBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBarButton.m; sourceTree = "<group>"; };
+		070B060D21769041001F095D /* CustomControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomControllerViewController.h; sourceTree = "<group>"; };
+		070B060E21769041001F095D /* CustomControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomControllerViewController.m; sourceTree = "<group>"; };
+		070B060F21769041001F095D /* CustomControllerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomControllerViewController.xib; sourceTree = "<group>"; };
+		070B061221769696001F095D /* CustomTabBar1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTabBar1.xib; sourceTree = "<group>"; };
+		070B06172177C17C001F095D /* CustomTabBar1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar1.h; sourceTree = "<group>"; };
+		070B06182177C17C001F095D /* CustomTabBar1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar1.m; sourceTree = "<group>"; };
+		070B061A2177C6DB001F095D /* WalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalletViewController.h; sourceTree = "<group>"; };
+		070B061B2177C6DB001F095D /* WalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletViewController.m; sourceTree = "<group>"; };
+		070B061D2177D651001F095D /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		070B061E2177D651001F095D /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		070B062021792492001F095D /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		070B062221792825001F095D /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		070B062321792825001F095D /* Header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		07776351216FFC1700EC6DB3 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		07776352216FFC1700EC6DB3 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		077763542170035100EC6DB3 /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		077763552170035100EC6DB3 /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		07AD3954216D4D0E0094538C /* QRPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AD3957216D4D0E0094538C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07AD3958216D4D0E0094538C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07AD395A216D4D0E0094538C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07AD395B216D4D0E0094538C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07AD395E216D4D0E0094538C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07AD3960216D4D140094538C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07AD3963216D4D140094538C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07AD3965216D4D140094538C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AD3966216D4D140094538C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07AD396D216D4E110094538C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07AD396F216EA5280094538C /* MainTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabController.h; sourceTree = "<group>"; };
+		07AD3970216EA5280094538C /* MainTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabController.m; sourceTree = "<group>"; };
+		6A868D6EA782786C0350D643 /* libPods-QRPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0E91D430AF9EAA3A34FF3A /* Pods-QRPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRPay/Pods-QRPay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07AD3951216D4D0E0094538C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADBE7B3AE8067D0D78CEAB8 /* libPods-QRPay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07AD394B216D4D0E0094538C = {
+			isa = PBXGroup;
+			children = (
+				07AD3956216D4D0E0094538C /* QRPay */,
+				07AD3955216D4D0E0094538C /* Products */,
+				E6099E6EC3B9A71B454C610D /* Pods */,
+				8D0EEDB20FEACE65D61E3655 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07AD3955216D4D0E0094538C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07AD3954216D4D0E0094538C /* QRPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07AD3956216D4D0E0094538C /* QRPay */ = {
+			isa = PBXGroup;
+			children = (
+				07AD396D216D4E110094538C /* Podfile */,
+				07AD3957216D4D0E0094538C /* AppDelegate.h */,
+				07AD3958216D4D0E0094538C /* AppDelegate.m */,
+				07AD395A216D4D0E0094538C /* ViewController.h */,
+				07AD395B216D4D0E0094538C /* ViewController.m */,
+				07AD395D216D4D0E0094538C /* Main.storyboard */,
+				07AD3960216D4D140094538C /* Assets.xcassets */,
+				07AD3962216D4D140094538C /* LaunchScreen.storyboard */,
+				07AD3965216D4D140094538C /* Info.plist */,
+				07AD3966216D4D140094538C /* main.m */,
+				07AD396F216EA5280094538C /* MainTabController.h */,
+				07AD3970216EA5280094538C /* MainTabController.m */,
+				07776351216FFC1700EC6DB3 /* HomeViewController.h */,
+				07776352216FFC1700EC6DB3 /* HomeViewController.m */,
+				070B061A2177C6DB001F095D /* WalletViewController.h */,
+				070B061B2177C6DB001F095D /* WalletViewController.m */,
+				070B061D2177D651001F095D /* MessagesViewController.h */,
+				070B061E2177D651001F095D /* MessagesViewController.m */,
+				077763542170035100EC6DB3 /* HistoryViewController.h */,
+				077763552170035100EC6DB3 /* HistoryViewController.m */,
+				070B060A21768E0B001F095D /* CustomBarButton.h */,
+				070B060B21768E0B001F095D /* CustomBarButton.m */,
+				070B060D21769041001F095D /* CustomControllerViewController.h */,
+				070B060E21769041001F095D /* CustomControllerViewController.m */,
+				070B060F21769041001F095D /* CustomControllerViewController.xib */,
+				070B061221769696001F095D /* CustomTabBar1.xib */,
+				070B06172177C17C001F095D /* CustomTabBar1.h */,
+				070B06182177C17C001F095D /* CustomTabBar1.m */,
+				070B062021792492001F095D /* Header.xib */,
+				070B062221792825001F095D /* Header.h */,
+				070B062321792825001F095D /* Header.m */,
+			);
+			path = QRPay;
+			sourceTree = "<group>";
+		};
+		8D0EEDB20FEACE65D61E3655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A868D6EA782786C0350D643 /* libPods-QRPay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6099E6EC3B9A71B454C610D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF0E91D430AF9EAA3A34FF3A /* Pods-QRPay.debug.xcconfig */,
+				027E0F152CD961CB8C3347A9 /* Pods-QRPay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07AD3953216D4D0E0094538C /* QRPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AD396A216D4D140094538C /* Build configuration list for PBXNativeTarget "QRPay" */;
+			buildPhases = (
+				9F0E52EF7BEDBFDA9739B7BC /* [CP] Check Pods Manifest.lock */,
+				07AD3950216D4D0E0094538C /* Sources */,
+				07AD3951216D4D0E0094538C /* Frameworks */,
+				07AD3952216D4D0E0094538C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRPay;
+			productName = QRPay;
+			productReference = 07AD3954216D4D0E0094538C /* QRPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07AD394C216D4D0E0094538C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = PayRO;
+				TargetAttributes = {
+					07AD3953216D4D0E0094538C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 07AD394F216D4D0E0094538C /* Build configuration list for PBXProject "QRPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07AD394B216D4D0E0094538C;
+			productRefGroup = 07AD3955216D4D0E0094538C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07AD3953216D4D0E0094538C /* QRPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07AD3952216D4D0E0094538C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070B061121769041001F095D /* CustomControllerViewController.xib in Resources */,
+				07AD3964216D4D140094538C /* LaunchScreen.storyboard in Resources */,
+				070B061321769696001F095D /* CustomTabBar1.xib in Resources */,
+				07AD3961216D4D140094538C /* Assets.xcassets in Resources */,
+				070B062121792492001F095D /* Header.xib in Resources */,
+				07AD396E216D4E110094538C /* Podfile in Resources */,
+				07AD395F216D4D0E0094538C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F0E52EF7BEDBFDA9739B7BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AD3950216D4D0E0094538C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AD395C216D4D0E0094538C /* ViewController.m in Sources */,
+				07AD3971216EA5280094538C /* MainTabController.m in Sources */,
+				070B061F2177D651001F095D /* MessagesViewController.m in Sources */,
+				070B060C21768E0B001F095D /* CustomBarButton.m in Sources */,
+				070B062421792825001F095D /* Header.m in Sources */,
+				070B061C2177C6DB001F095D /* WalletViewController.m in Sources */,
+				07AD3967216D4D140094538C /* main.m in Sources */,
+				07776353216FFC1700EC6DB3 /* HomeViewController.m in Sources */,
+				07AD3959216D4D0E0094538C /* AppDelegate.m in Sources */,
+				077763562170035100EC6DB3 /* HistoryViewController.m in Sources */,
+				070B06192177C17C001F095D /* CustomTabBar1.m in Sources */,
+				070B061021769041001F095D /* CustomControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07AD395D216D4D0E0094538C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AD395E216D4D0E0094538C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07AD3962216D4D140094538C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AD3963216D4D140094538C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07AD3968216D4D140094538C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07AD3969216D4D140094538C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07AD396B216D4D140094538C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0E91D430AF9EAA3A34FF3A /* Pods-QRPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7PL99Y7VN;
+				INFOPLIST_FILE = QRPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ro.QRPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07AD396C216D4D140094538C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027E0F152CD961CB8C3347A9 /* Pods-QRPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7PL99Y7VN;
+				INFOPLIST_FILE = QRPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ro.QRPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07AD394F216D4D0E0094538C /* Build configuration list for PBXProject "QRPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AD3968216D4D140094538C /* Debug */,
+				07AD3969216D4D140094538C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AD396A216D4D140094538C /* Build configuration list for PBXNativeTarget "QRPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AD396B216D4D140094538C /* Debug */,
+				07AD396C216D4D140094538C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07AD394C216D4D0E0094538C /* Project object */;
+}

@@ -24,7 +24,10 @@
             <rect key="frame" x="0.0" y="0.0" width="553" height="168"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="24y-1h-0dF">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_background" translatesAutoresizingMaskIntoConstraints="NO" id="57M-5o-Tez">
+                    <rect key="frame" x="0.0" y="0.0" width="553" height="168"/>
+                </imageView>
+                <stackView contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="24y-1h-0dF">
                     <rect key="frame" x="0.0" y="0.0" width="553" height="168"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQb-Re-TJL" customClass="CustomBarButton">
@@ -45,14 +48,18 @@
                             <state key="normal" title="HISTORY" image="ic_history"/>
                         </button>
                     </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <viewLayoutGuide key="safeArea" id="OZE-yc-dXd"/>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="24y-1h-0dF" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="3c7-1q-6aV"/>
                 <constraint firstItem="24y-1h-0dF" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="4AE-Sj-2yW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="57M-5o-Tez" secondAttribute="bottom" id="6ng-yo-lA9"/>
+                <constraint firstItem="57M-5o-Tez" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="OKd-wi-frN"/>
+                <constraint firstItem="57M-5o-Tez" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YUq-Iq-qAH"/>
                 <constraint firstItem="24y-1h-0dF" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="dpN-AA-UrC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="57M-5o-Tez" secondAttribute="trailing" id="oWu-3a-Hek"/>
                 <constraint firstItem="24y-1h-0dF" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="zo7-va-PbR"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -65,5 +72,6 @@
         <image name="ic_home" width="46" height="43"/>
         <image name="ic_messages" width="46" height="43"/>
         <image name="ic_wallet" width="46" height="43"/>
+        <image name="tabbar_background" width="360" height="151"/>
     </resources>
 </document>

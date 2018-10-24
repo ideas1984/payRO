@@ -27,7 +27,11 @@
                     <rect key="frame" x="0.0" y="0.0" width="340" height="76"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ub-XO-nFa">
-                    <rect key="frame" x="272" y="12" width="52" height="53"/>
+                    <rect key="frame" x="305" y="12" width="19" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="7y9-f7-0b7"/>
+                        <constraint firstAttribute="width" constant="19" id="bbx-ie-eo7"/>
+                    </constraints>
                     <state key="normal" image="ic_settings"/>
                 </button>
             </subviews>
@@ -37,7 +41,6 @@
                 <constraint firstItem="SJU-iA-gdA" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="3tU-90-lhs"/>
                 <constraint firstItem="BiI-48-Gx5" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="35:19" constant="200" id="6Dk-UH-N13"/>
                 <constraint firstItem="BiI-48-Gx5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="7qM-oK-h3I"/>
-                <constraint firstItem="4Ub-XO-nFa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="272" id="CQm-9q-RAU"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4Ub-XO-nFa" secondAttribute="trailing" constant="16" id="EBN-Zk-1wC"/>
                 <constraint firstItem="BiI-48-Gx5" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="F3T-Uc-BTO"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="4Ub-XO-nFa" secondAttribute="bottom" constant="11" id="Ngo-sU-ySb"/>

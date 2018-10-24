@@ -16,33 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-//    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"background_menu_crop"]];
-//    [UITabBar appearance].layer.borderWidth = 0.0f;
-//    [UITabBar appearance].clipsToBounds = true;
-
-    
-//    [[UITabBar appearance] setBarTintColor:[UIColor clearColor]];
+   
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"transparent"]];
-//    [[UITabBar appearance] setBackgroundColor:[UIColor clearColor]];
     [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"transparent"]];
-//    [[UITabBar appearance] setShadowImage:[UIImage new]];
-    
-//    UIImageView *dot =[[UIImageView alloc] initWithFrame:self.tabBar.frame];
-//    [dot setContentMode:UIViewContentModeScaleToFill];
-//    dot.image = [UIImage imageNamed:@"background_menu_crop"];
-//    [self.view addSubview:dot];
-//    [self.view sendSubviewToBack:dot];
-    
-    UITabBarItem *item = [self.tabBar.items objectAtIndex:0];
-//    item.contentMode = UIViewContentModeScaleAspectFill;
-    item.image = [UIImage imageNamed:@"white-semi-circle"];
-    item.selectedImage = [UIImage imageNamed:@"white-semi-circle"];
-    
-    
-    UIView *v = [[UIView alloc] init];
-    v.contentMode = UIViewContentModeScaleAspectFill;
     
     [self makeTabBarHidden:YES];
     

@@ -12,7 +12,8 @@
 
 @interface HomeViewController ()
 @property (weak, nonatomic) IBOutlet CustomTabBar1 *tabBar;
-@property (weak, nonatomic) IBOutlet UIView *previewView;
+@property (weak, nonatomic) IBOutlet UIView *scanningView;
+@property (weak, nonatomic) IBOutlet UIView *controlsView;
 
 @property (nonatomic, strong) MTBBarcodeScanner *scanner;
 @property (nonatomic, strong) NSMutableArray *uniqueCodes;
@@ -29,26 +30,38 @@
     [self.tabBar.messagesButton addTarget:self action:@selector(clickMessages:) forControlEvents:UIControlEventTouchUpInside];
     [self.tabBar.historyButton addTarget:self action:@selector(clickHistory:) forControlEvents:UIControlEventTouchUpInside];
     
-    [MTBBarcodeScanner requestCameraPermissionWithSuccess:^(BOOL success) {
-        if (success) {
-            [self startScanning];
-        } else {
-            [self displayPermissionMissingAlert];
-        }
-    }];
+
+    [self.startScanButton setUserInteractionEnabled:YES];
+    UITapGestureRecognizer *singleTap =  [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickStartScan:)];
+    [singleTap setNumberOfTapsRequired:1];
+    [self.startScanButton addGestureRecognizer:singleTap];
+
+//    [self.scanningView setHidden:YES];
 
 }
 
 - (void) viewDidAppear:(BOOL)animated {
-    self.tabBar.homeButton.alpha = 1;
+    self.tabBar.walletButton.alpha = 0.6;
+    self.tabBar.messagesButton.alpha = 0.6;
+    self.tabBar.historyButton.alpha = 0.6;
     
+    [self.scanningView setHidden:YES];
+    [self.controlsView setHidden:NO];
+    
+}
+
+- (IBAction)clickStartScan:(id)sender {
+
     [MTBBarcodeScanner requestCameraPermissionWithSuccess:^(BOOL success) {
         if (success) {
+            [self.scanningView setHidden:NO];
+            [self.controlsView setHidden:YES];
             [self startScanning];
         } else {
             [self displayPermissionMissingAlert];
         }
     }];
+
 }
 
 - (IBAction)clickHome:(id)sender {
@@ -74,7 +87,7 @@
 
 - (MTBBarcodeScanner *)scanner {
     if (!_scanner) {
-        _scanner = [[MTBBarcodeScanner alloc] initWithPreviewView:self.previewView];
+        _scanner = [[MTBBarcodeScanner alloc] initWithPreviewView:self.scanningView];
     }
     return _scanner;
 }
@@ -109,6 +122,8 @@
 }
 
 - (void)stopScanning {
+    [self.scanningView setHidden:YES];
+    [self.controlsView setHidden:NO];
     [self.scanner stopScanning];
     
     //    [self.toggleScanningButton setTitle:@"Start Scanning" forState:UIControlStateNormal];

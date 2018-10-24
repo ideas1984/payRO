@@ -23,7 +23,6 @@
     [self centerVertically];
     [self.titleLabel setFont:[UIFont systemFontOfSize:10]];
     [self.titleLabel setTextColor:[UIColor blackColor]];
-    self.alpha = 0.6;
 }
 
 

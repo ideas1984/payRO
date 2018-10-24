@@ -28,7 +28,9 @@
 }
 
 - (void) viewDidAppear:(BOOL)animated {
-    self.tabBar.walletButton.alpha = 1;
+    self.tabBar.homeButton.alpha = 0.6;
+    self.tabBar.messagesButton.alpha = 0.6;
+    self.tabBar.historyButton.alpha = 0.6;
 }
 
 - (IBAction)clickHome:(id)sender {

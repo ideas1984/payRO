@@ -34,13 +34,13 @@
 }
 
 - (void) customInit {
-    UIGraphicsBeginImageContext(self.frame.size);
-    [[UIImage imageNamed:@"tabbar_background"] drawInRect:self.bounds];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
+//    UIGraphicsBeginImageContext(self.frame.size);
+//    [[UIImage imageNamed:@"tabbar_background"] drawInRect:self.bounds];
+//    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+//    UIGraphicsEndImageContext();
+//    self.backgroundColor = [UIColor colorWithPatternImage:image];
     
-    self.backgroundColor = [UIColor colorWithPatternImage:image];
-    
+    self.backgroundColor = [UIColor clearColor];
     [[NSBundle mainBundle] loadNibNamed:@"CustomTabBar1" owner:self options:nil];
     [self addSubview:self.contentView];
     self.contentView.frame = self.bounds;

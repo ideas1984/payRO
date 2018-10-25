@@ -7,11 +7,11 @@
 //
 
 #import "HistoryViewController.h"
-#import "CustomTabBar1.h"
+#import "CustomTabBar.h"
 
 @interface HistoryViewController ()
 
-@property (weak, nonatomic) IBOutlet CustomTabBar1 *tabBar;
+@property (weak, nonatomic) IBOutlet CustomTabBar *tabBar;
 
 
 @end

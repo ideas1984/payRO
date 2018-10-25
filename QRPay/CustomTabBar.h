@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CustomTabBar1 : UIView
+@interface CustomTabBar : UIView
 @property (weak, nonatomic) IBOutlet CustomBarButton *homeButton;
 @property (weak, nonatomic) IBOutlet CustomBarButton *walletButton;
 @property (weak, nonatomic) IBOutlet CustomBarButton *messagesButton;

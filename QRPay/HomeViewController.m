@@ -7,11 +7,11 @@
 //
 
 #import "HomeViewController.h"
-#import "CustomTabBar1.h"
+#import "CustomTabBar.h"
 #import "MTBBarcodeScanner.h"
 
 @interface HomeViewController ()
-@property (weak, nonatomic) IBOutlet CustomTabBar1 *tabBar;
+@property (weak, nonatomic) IBOutlet CustomTabBar *tabBar;
 @property (weak, nonatomic) IBOutlet UIView *scanningView;
 @property (weak, nonatomic) IBOutlet UIView *controlsView;
 @property (weak, nonatomic) IBOutlet UIImageView *welcomeImage;

@@ -10,8 +10,8 @@
 		070B060C21768E0B001F095D /* CustomBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B060B21768E0B001F095D /* CustomBarButton.m */; };
 		070B061021769041001F095D /* CustomControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B060E21769041001F095D /* CustomControllerViewController.m */; };
 		070B061121769041001F095D /* CustomControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B060F21769041001F095D /* CustomControllerViewController.xib */; };
-		070B061321769696001F095D /* CustomTabBar1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B061221769696001F095D /* CustomTabBar1.xib */; };
-		070B06192177C17C001F095D /* CustomTabBar1.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B06182177C17C001F095D /* CustomTabBar1.m */; };
+		070B061321769696001F095D /* CustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B061221769696001F095D /* CustomTabBar.xib */; };
+		070B06192177C17C001F095D /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B06182177C17C001F095D /* CustomTabBar.m */; };
 		070B061C2177C6DB001F095D /* WalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B061B2177C6DB001F095D /* WalletViewController.m */; };
 		070B061F2177D651001F095D /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B061E2177D651001F095D /* MessagesViewController.m */; };
 		070B062121792492001F095D /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B062021792492001F095D /* Header.xib */; };
@@ -37,9 +37,9 @@
 		070B060D21769041001F095D /* CustomControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomControllerViewController.h; sourceTree = "<group>"; };
 		070B060E21769041001F095D /* CustomControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomControllerViewController.m; sourceTree = "<group>"; };
 		070B060F21769041001F095D /* CustomControllerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomControllerViewController.xib; sourceTree = "<group>"; };
-		070B061221769696001F095D /* CustomTabBar1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTabBar1.xib; sourceTree = "<group>"; };
-		070B06172177C17C001F095D /* CustomTabBar1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar1.h; sourceTree = "<group>"; };
-		070B06182177C17C001F095D /* CustomTabBar1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar1.m; sourceTree = "<group>"; };
+		070B061221769696001F095D /* CustomTabBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTabBar.xib; sourceTree = "<group>"; };
+		070B06172177C17C001F095D /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		070B06182177C17C001F095D /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
 		070B061A2177C6DB001F095D /* WalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalletViewController.h; sourceTree = "<group>"; };
 		070B061B2177C6DB001F095D /* WalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletViewController.m; sourceTree = "<group>"; };
 		070B061D2177D651001F095D /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
@@ -128,9 +128,9 @@
 				070B060D21769041001F095D /* CustomControllerViewController.h */,
 				070B060E21769041001F095D /* CustomControllerViewController.m */,
 				070B060F21769041001F095D /* CustomControllerViewController.xib */,
-				070B061221769696001F095D /* CustomTabBar1.xib */,
-				070B06172177C17C001F095D /* CustomTabBar1.h */,
-				070B06182177C17C001F095D /* CustomTabBar1.m */,
+				070B061221769696001F095D /* CustomTabBar.xib */,
+				070B06172177C17C001F095D /* CustomTabBar.h */,
+				070B06182177C17C001F095D /* CustomTabBar.m */,
 				070B062021792492001F095D /* Header.xib */,
 				070B062221792825001F095D /* Header.h */,
 				070B062321792825001F095D /* Header.m */,
@@ -217,7 +217,7 @@
 			files = (
 				070B061121769041001F095D /* CustomControllerViewController.xib in Resources */,
 				07AD3964216D4D140094538C /* LaunchScreen.storyboard in Resources */,
-				070B061321769696001F095D /* CustomTabBar1.xib in Resources */,
+				070B061321769696001F095D /* CustomTabBar.xib in Resources */,
 				07AD3961216D4D140094538C /* Assets.xcassets in Resources */,
 				070B062121792492001F095D /* Header.xib in Resources */,
 				07AD396E216D4E110094538C /* Podfile in Resources */,
@@ -264,7 +264,7 @@
 				07776353216FFC1700EC6DB3 /* HomeViewController.m in Sources */,
 				07AD3959216D4D0E0094538C /* AppDelegate.m in Sources */,
 				077763562170035100EC6DB3 /* HistoryViewController.m in Sources */,
-				070B06192177C17C001F095D /* CustomTabBar1.m in Sources */,
+				070B06192177C17C001F095D /* CustomTabBar.m in Sources */,
 				070B061021769041001F095D /* CustomControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

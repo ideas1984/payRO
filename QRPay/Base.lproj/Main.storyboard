@@ -31,7 +31,7 @@
                                     <constraint firstAttribute="height" constant="70" id="4zA-Qb-SxV"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iii-1y-TtL" customClass="CustomTabBar1">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iii-1y-TtL" customClass="CustomTabBar">
                                 <rect key="frame" x="0.0" y="547" width="414" height="140"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -87,7 +87,7 @@
                                     <constraint firstAttribute="height" constant="70" id="Prf-Za-U46"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cgl-9o-3J0" customClass="CustomTabBar1">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cgl-9o-3J0" customClass="CustomTabBar">
                                 <rect key="frame" x="0.0" y="547" width="414" height="140"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -143,7 +143,7 @@
                                     <constraint firstAttribute="height" constant="70" id="oYe-ge-5ug"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFl-d1-MK7" customClass="CustomTabBar1">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFl-d1-MK7" customClass="CustomTabBar">
                                 <rect key="frame" x="0.0" y="547" width="414" height="140"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -243,7 +243,7 @@
                                     <constraint firstAttribute="trailing" secondItem="hIe-qX-a2X" secondAttribute="trailing" constant="8" id="sE0-Pi-YTZ"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vHK-sF-U32" customClass="CustomTabBar1">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vHK-sF-U32" customClass="CustomTabBar">
                                 <rect key="frame" x="0.0" y="547" width="414" height="140"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>

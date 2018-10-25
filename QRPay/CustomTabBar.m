@@ -6,16 +6,16 @@
 //  Copyright © 2018 PayRO. All rights reserved.
 //
 
-#import "CustomTabBar1.h"
+#import "CustomTabBar.h"
 #import "CustomBarButton.h"
 
-@interface CustomTabBar1()
+@interface CustomTabBar()
 
 @property (strong, nonatomic) IBOutlet UIView *contentView;
 
 @end
 
-@implementation CustomTabBar1
+@implementation CustomTabBar
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -41,7 +41,7 @@
 //    self.backgroundColor = [UIColor colorWithPatternImage:image];
     
     self.backgroundColor = [UIColor clearColor];
-    [[NSBundle mainBundle] loadNibNamed:@"CustomTabBar1" owner:self options:nil];
+    [[NSBundle mainBundle] loadNibNamed:@"CustomTabBar" owner:self options:nil];
     [self addSubview:self.contentView];
     self.contentView.frame = self.bounds;
 }

@@ -14,6 +14,8 @@
 @property (weak, nonatomic) IBOutlet CustomTabBar1 *tabBar;
 @property (weak, nonatomic) IBOutlet UIView *scanningView;
 @property (weak, nonatomic) IBOutlet UIView *controlsView;
+@property (weak, nonatomic) IBOutlet UIImageView *welcomeImage;
+@property (weak, nonatomic) IBOutlet UIImageView *placeQRImage;
 
 @property (nonatomic, strong) MTBBarcodeScanner *scanner;
 @property (nonatomic, strong) NSMutableArray *uniqueCodes;
@@ -47,6 +49,7 @@
     
     [self.scanningView setHidden:YES];
     [self.controlsView setHidden:NO];
+    [self.placeQRImage setHidden:YES];
     
 }
 
@@ -56,6 +59,9 @@
         if (success) {
             [self.scanningView setHidden:NO];
             [self.controlsView setHidden:YES];
+            [self.placeQRImage setHidden:NO];
+            [self.view bringSubviewToFront:self.welcomeImage];
+            [self.view bringSubviewToFront:self.placeQRImage];
             [self startScanning];
         } else {
             [self displayPermissionMissingAlert];
@@ -104,11 +110,9 @@
                 [self.uniqueCodes addObject:code.stringValue];
                 
                 NSLog(@"Found unique code: %@", code.stringValue);
-//                self.label.text = code.stringValue;
-                
-                //                // Update the tableview
-                //                [self.tableView reloadData];
-                //                [self scrollToLastTableViewCell];
+
+                [self sendDataToServer:code.stringValue];
+
             }
         }
     } error:&error];
@@ -121,9 +125,37 @@
     //    self.toggleScanningButton.backgroundColor = [UIColor redColor];
 }
 
+- (void) sendDataToServer:(NSString *) json {
+    NSError *error;
+    
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration delegate:nil delegateQueue:nil];
+    NSURL *url = [NSURL URLWithString:@"http://89.38.131.30:8082/QRResult"];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
+                                                           cachePolicy:NSURLRequestUseProtocolCachePolicy
+                                                       timeoutInterval:60.0];
+    
+    [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    
+    [request setHTTPMethod:@"POST"];
+    
+    NSData *requestData = [NSData dataWithBytes:[json UTF8String] length:[json length]];
+    [request setHTTPBody: requestData];
+    
+    
+    NSURLSessionDataTask *postDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
+        NSLog(@"response status code: %ld", (long)[httpResponse statusCode]);
+    }];
+    
+    [postDataTask resume];
+}
+
 - (void)stopScanning {
     [self.scanningView setHidden:YES];
     [self.controlsView setHidden:NO];
+    [self.placeQRImage setHidden:YES];
     [self.scanner stopScanning];
     
     //    [self.toggleScanningButton setTitle:@"Start Scanning" forState:UIControlStateNormal];

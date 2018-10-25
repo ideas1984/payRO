@@ -18,6 +18,7 @@
 		070B062421792825001F095D /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B062321792825001F095D /* Header.m */; };
 		07776353216FFC1700EC6DB3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07776352216FFC1700EC6DB3 /* HomeViewController.m */; };
 		077763562170035100EC6DB3 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077763552170035100EC6DB3 /* HistoryViewController.m */; };
+		07A578C0218110DB004C6EEF /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A578BF218110DB004C6EEF /* OverlayView.m */; };
 		07AD3959216D4D0E0094538C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD3958216D4D0E0094538C /* AppDelegate.m */; };
 		07AD395C216D4D0E0094538C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD395B216D4D0E0094538C /* ViewController.m */; };
 		07AD395F216D4D0E0094538C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AD395D216D4D0E0094538C /* Main.storyboard */; };
@@ -50,6 +51,8 @@
 		07776352216FFC1700EC6DB3 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		077763542170035100EC6DB3 /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		077763552170035100EC6DB3 /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		07A578BF218110DB004C6EEF /* OverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		07A578C421827BA8004C6EEF /* OverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
 		07AD3954216D4D0E0094538C /* QRPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AD3957216D4D0E0094538C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07AD3958216D4D0E0094538C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				070B062021792492001F095D /* Header.xib */,
 				070B062221792825001F095D /* Header.h */,
 				070B062321792825001F095D /* Header.m */,
+				07A578C421827BA8004C6EEF /* OverlayView.h */,
+				07A578BF218110DB004C6EEF /* OverlayView.m */,
 			);
 			path = QRPay;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 				070B060C21768E0B001F095D /* CustomBarButton.m in Sources */,
 				070B062421792825001F095D /* Header.m in Sources */,
 				070B061C2177C6DB001F095D /* WalletViewController.m in Sources */,
+				07A578C0218110DB004C6EEF /* OverlayView.m in Sources */,
 				07AD3967216D4D140094538C /* main.m in Sources */,
 				07776353216FFC1700EC6DB3 /* HomeViewController.m in Sources */,
 				07AD3959216D4D0E0094538C /* AppDelegate.m in Sources */,

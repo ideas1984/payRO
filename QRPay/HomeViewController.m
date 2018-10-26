@@ -110,7 +110,8 @@
                 [self.uniqueCodes addObject:code.stringValue];
                 
                 NSLog(@"Found unique code: %@", code.stringValue);
-
+                
+                [self stopScanning];
                 [self sendDataToServer:code.stringValue];
 
             }
@@ -147,6 +148,7 @@
     NSURLSessionDataTask *postDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
         NSLog(@"response status code: %ld", (long)[httpResponse statusCode]);
+        
     }];
     
     [postDataTask resume];
